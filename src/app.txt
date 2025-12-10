@@ -1,2 +1,15 @@
 Archivo de prueba para pipeline Jenkins.
-Evaluacion Final DevOps
+
+1. El Jenkinsfile inicia definiendo un pipeline que puede ejecutarse 
+en cualquier agente disponible.
+2. En el stage Checkout, Jenkins clona el repositorio de GitHub 
+tomando la rama main para obtener el código fuente necesario.
+3. En el stage Build, el pipeline ejecuta un mensaje que simula la 
+compilación de la aplicación.
+4. En el stage Test, Jenkins imprime un mensaje indicando que se están 
+ejecutando las pruebas, representando una fase de validación básica.
+5. En el stage Package Release, el pipeline anuncia la generación del 
+artefacto y ejecuta un comando que crea el archivo release.zip comprimido a 
+partir de la carpeta src.
+6. En el stage Publish Artifact, se muestra un mensaje que simula la 
+publicación del artefacto generado.
