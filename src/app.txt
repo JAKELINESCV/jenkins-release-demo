@@ -13,3 +13,6 @@ artefacto y ejecuta un comando que crea el archivo release.zip comprimido a
 partir de la carpeta src.
 6. En el stage Publish Artifact, se muestra un mensaje que simula la 
 publicación del artefacto generado.
+7. Finalmente, en la sección post, si el pipeline termina con éxito, 
+Jenkins archiva el archivo release.zip y muestra un mensaje de confirmación; 
+si ocurre un error, muestra un mensaje indicando que el proceso de release falló.
